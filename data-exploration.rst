@@ -16,3 +16,5 @@ Visualising the data
 
 [Some plots, histograms etc. Correlations.]
 
+
+.. image:: /_static/sales_latlong.jpg
