@@ -1,8 +1,8 @@
 Data retrieval
 ==============
 
-Web scraping
-------------
+Web scraping and data trimming
+------------------------------
 
 There is ample data on the selling prices of apartments in Sweden on the Hemnet website. Here, we are interested in the prices in the Stockholm area, and in the end we want to predict the final price of an apartment given input variables such as size in square metres, monthly fee and so on. To be able to get as much data as possible from the website, we use a web scraping tool in this project, that extracts the data from the website source. 
 
@@ -59,8 +59,8 @@ From the web scraping, we then obtain a csv file with the following columns:
 - monthly fee (*float*)
 - price increase compared to announced price (*float*)
 
-Data trimming and engineering
------------------------------
+Processing the scraped data
+---------------------------
 
 Some of the features in the web scraping data are not very useful as they are. To remedy this, we here describe how some of them can be used to create new, more useful features. 
 
